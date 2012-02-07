@@ -14,16 +14,16 @@ div#content {
     background-color: #FFF;
 }
 
+p,h1,h2,h3,a,li,dt,dd { font-family: sans-serif; }
+
 p,h1,h2 {
     color: #000;
-    font-family: sans-serif;
     text-decoration: none;
     line-height: 1.25em;
 }
 
 a {
     color: #888;
-    font-family: sans-serif;
     font-size: small;
     text-decoration: none;
     line-height: 1.1em;
@@ -35,4 +35,13 @@ ul {
 
 header ul li {
     color: #444;
+}
+
+section h1 {
+    border-bottom: 1px solid #888;
+}
+
+section h2 {
+    border-bottom: 1px solid #CCC;
+    padding-left: 20px;
 }
